@@ -4,8 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/lembu-suro-race-academy/",  
-
+  base: "/lembu-suro-race-academy/", 
   server: {
     host: "::",
     port: 8080,
